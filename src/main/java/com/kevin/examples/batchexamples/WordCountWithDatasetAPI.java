@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
  * @description
  * @date 2018-08-09 17:54
  */
-public class Wordcount {
+public class WordCountWithDatasetAPI {
     public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
